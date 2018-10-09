@@ -7,9 +7,15 @@
 			<label value="ZK Tutorial" style="font-size: 30px;" />
 		</div>
 		<hbox hflex="1" vflex="1" pack="end" align="end" >
-			<label value="Register" sclass="logout"/>
-			<label value=" | "/>
-			<label value="Log in" sclass="logout"/>
+			<label id="register" value="Register" sclass="logout">
+			<attribute name="onClick">
+				register.setValue("Welcome User !");
+				login.setValue("") ;
+				separator.setValue("");
+			</attribute>
+			</label>
+			<label id="separator" value=" | "/>
+			<label id="login" value="login"  sclass="logout"/>
 		</hbox>
 		
 	</hbox>

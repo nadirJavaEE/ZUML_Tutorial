@@ -1,10 +1,16 @@
 <?link rel="stylesheet" type="text/css" href="/css/style.css"?>
-<zk>
+<zk apply="fr.meg.zkProject.controller.SearchController">
 	<borderlayout hflex="1" vflex="1">
 		<north vflex="min" border="none" >
 			<include src="/banner.zul"/>
 		</north>
 
+		<west width="260px" border="none" collapsible="true" splittable="true" minsize="300">
+			<include src="/sidebar.zul"/>
+		</west>
+		<center id="mainContent" autoscroll="true">
+			<include src="/main.zul"/>
+		</center>
         <south border="none">
 			<include src="/footer.zul"/>
 		</south>		
