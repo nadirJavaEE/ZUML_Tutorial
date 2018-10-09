@@ -1,0 +1,16 @@
+
+	<hbox hflex="1" align="center" sclass="banner">
+		<a href="http://www.groupemeg.com/" target="_blank">
+			<image src="/imgs/logo_groupe-meg.png" width="90px" height="50px" />
+		</a>
+		<div sclass="banner-head" >
+			<label value="ZK Tutorial" style="font-size: 30px;" />
+		</div>
+		<hbox hflex="1" vflex="1" pack="end" align="end" >
+			<label value="Register" sclass="logout"/>
+			<label value=" | "/>
+			<label value="Log in" sclass="logout"/>
+		</hbox>
+		
+	</hbox>
+
