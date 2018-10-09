@@ -3,6 +3,10 @@
 	<borderlayout hflex="1" vflex="1">
 		<north vflex="min" border="none" >
 			<include src="/banner.zul"/>
-		</north>	
+		</north>
+
+        <south border="none">
+			<include src="/footer.zul"/>
+		</south>		
 	</borderlayout>
 </zk>

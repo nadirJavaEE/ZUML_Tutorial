@@ -2,6 +2,7 @@
 	background-color:#87CEFA;
 	color: white;
 	padding: 5px 10px;
+	border: 1px solid black;
 	
 	
 }
@@ -16,3 +17,10 @@
 .logout{
 	cursor: pointer;
 } 
+
+.footer {
+	background-color:#87CEFA;
+	padding-top: 5px;
+	border: 1px solid black;
+	height: 50px; 
+}

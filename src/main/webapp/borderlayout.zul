@@ -3,8 +3,8 @@
 
 	<borderlayout height="450px">
 		<north title="North" maxsize="300" size="20%" splittable="true" collapsible="true">
-			<div style="background:#B8D335" vflex="1">
-				<label value="North" style="color:white;font-size:50px" />
+			<div  vflex="1">
+				<label value="North" />
 			</div>
 		</north>
 		<west maxsize="200" border="0" splittable="true">
